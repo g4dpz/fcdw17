@@ -19,8 +19,8 @@
 
     <modules>
         <module>fc-dw-common-jar</module>
-        <!-- <module>fc-raw-data-war</module>
-        <module>fc-funcube-war</module>
+        <module>fc-dw-raw-data-war</module>
+        <!-- <module>fc-funcube-war</module>
         <module>fc-data-warehouse-ear</module> -->
     </modules>
 
