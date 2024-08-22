@@ -4,7 +4,7 @@
 // To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter
 // to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 
-package uk.me.g4dpz.datawarehouse.common.utils;
+package uk.me.g4dpz.fcdwcommon.utils;
 
 import java.util.Calendar;
 import java.util.Date;

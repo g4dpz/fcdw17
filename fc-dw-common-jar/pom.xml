@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.badgersoft.datawarehouse</groupId>
+    <groupId>uk.me.g4dpz</groupId>
     <artifactId>fc-dw-common-jar</artifactId>
     <version>1.0-SNAPSHOT</version>
     

@@ -4,15 +4,25 @@
 // To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter
 // to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 
-package uk.me.g4dpz.datawarehouse.common.utils;
+package uk.me.g4dpz.fcdwcommon.utils;
 
 import java.util.Date;
 
 /**
- * Interface for the system clock. Used to allow mocking and testing.
+ * Default implementation of the {@link Clock} that uses the system clock.
  */
-public interface Clock {
-    long currentTime();
+public class DefaultClock implements Clock {
+    public DefaultClock() {
+        super();
+    }
 
-    Date currentDate();
+    @Override
+    public Date currentDate() {
+        return new Date();
+    }
+
+    @Override
+    public long currentTime() {
+        return System.currentTimeMillis();
+    }
 }

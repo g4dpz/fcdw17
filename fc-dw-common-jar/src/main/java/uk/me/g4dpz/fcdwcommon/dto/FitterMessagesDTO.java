@@ -1,4 +1,4 @@
-package uk.me.g4dpz.datawarehouse.common.dto;
+package uk.me.g4dpz.fcdwcommon.dto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
