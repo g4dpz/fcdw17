@@ -14,7 +14,7 @@ public class HexFrameDTO implements Serializable {
     private String latitude;
     private String longitude;
     private Date satelliteTime;
-    private List<String> contributors = new ArrayList();
+    private List<String> contributors = new ArrayList<String>();
 
     public HexFrameDTO() {
     }
